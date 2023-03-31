@@ -32,6 +32,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-HP-FixLidSleep.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HP-FixLidSleep.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-I2C0.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -743,7 +751,7 @@
 				<key>Comment</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
@@ -1490,23 +1498,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF943306GU0000JA</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>2B1yV+w8</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string></string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZLYY9L40Y</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>A5F8C209-98AE-4131-920D-8D5FAFAFEEF5</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
