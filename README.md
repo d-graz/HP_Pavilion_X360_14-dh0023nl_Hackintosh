@@ -6,12 +6,28 @@ EFI folder for Opencore boot-loader for HP Pavilion X360 model 14-dh0023nl
 13.2.1
 ## Disclaimer
 This repo will be update yearly one month or so after the release of new version of MacOS (unless differently specified)
-### PC spec
-Quick pc spec to ensure hardware is the same
-# TODO: Tabella degli specs
+## Hardware and Functionality status
+Legend:
+- :heavy_check_mark: -> works apple-like
+- :bangbang:, :heavy_exclamation_mark: -> works but pay attention to side notes
+- :interrobang: -> not tested, may work
+- :x: -> does not work, either for hw reason or due to missing patch
 
-## Does it work?
-# TODO: tabella di cosa funziona
+|hardware|Model|Is it working?|Side notes|
+|:-------|:----|:------------:|:---------|
+|Processor|Intel i3-8145u|:heavy_check_mark:|Use CPUFriend kext to fine tune perfomace. Also native power-managemet would work|
+|Keyboard|ps2|:heavy_check_mark:|FN keys are working and keyboard backlight are working|
+|Trackpad|SYNA328b|:heavy_check_mark:||
+|Touchscreen|ELEANADDNUMBER|:x:|Disabled in order to get a proper trackpad experience|
+|Sleep||:heavy_check_mark:|Lid + usb power-managemt fix|
+|Wify|Intel 7265|:bangbang:|Defaul realtek wifi module replaced with intel one. Intel driver on MacOS Ventura in apha (working with poor performace)|
+|Bluetooth|Intel 7265|:heavy_exclamation_mark:|Working but some continuty features are currently broken|
+|Usb||:heavy_check_mark:||
+|Integrated Camera|HP HD widevision|:interrobang:|My webcam is probably bronken(not recognized even on linux)|
+|Integrated speakers||:heavy_check_mark:||
+|SD card reader||:interrobang:|Not tested|
+|Fingerprint reader||:x:|No support at all due to missing hardware|
+|HDMI port||:x:|Not working right now. Probabibly could be fixed|
 ## Usage
 ### Recommended
 **General Advise** : use this repo as a mirror to correct your mistakes during the creation of your own EFI folder
