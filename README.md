@@ -18,7 +18,7 @@ Legend:
 |Processor|Intel i3-8145u|:heavy_check_mark:|Use CPUFriend kext to fine tune perfomace. Also native power-managemet would work|
 |Keyboard|ps2|:heavy_check_mark:|FN keys are working and keyboard backlight are working|
 |Trackpad|SYNA328b|:heavy_check_mark:||
-|Touchscreen|ELEANADDNUMBER|:x:|Disabled in order to get a proper trackpad experience|
+|Touchscreen|ELEAN2514|:x:|Disabled in order to get a proper trackpad experience|
 |Sleep||:heavy_check_mark:|Lid + usb power-managemt fix|
 |Wify|Intel 7265|:bangbang:|Defaul realtek wifi module replaced with intel one. Intel driver on MacOS Ventura in apha (working with poor performace)|
 |Bluetooth|Intel 7265|:heavy_exclamation_mark:|Working but some continuty features are currently broken|
