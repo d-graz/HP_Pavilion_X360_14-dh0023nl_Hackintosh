@@ -1,6 +1,6 @@
 # HP Pavilion X360 14-dh0023nl Hackintosh
 EFI folder for Opencore boot-loader for HP Pavilion X360 model 14-dh0023nl
-### Last update - Discontinued
+### Last update
 **April 2023**, MacOS Ventura
 ### Last checked MacOS version
 13.2.1
