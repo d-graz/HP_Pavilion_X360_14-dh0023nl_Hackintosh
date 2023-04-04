@@ -1,9 +1,9 @@
 # HP Pavilion X360 14-dh0023nl Hackintosh
 EFI folder for Opencore boot-loader for HP Pavilion X360 model 14-dh0023nl
 ### Last update
-**April 2023**, MacOS Ventura
+**April 2023**, MacOS Ventura, Opencore v0.9
 ### Last checked MacOS version
-13.2.1
+13.3
 ## Disclaimer
 This repo will be update yearly one month or so after the release of new version of MacOS (unless differently specified)
 ## Hardware and Functionality status
@@ -27,7 +27,7 @@ Legend:
 |Integrated speakers||:heavy_check_mark:||
 |SD card reader||:interrobang:|Not tested|
 |Fingerprint reader||:x:|No support at all due to missing hardware|
-|HDMI port||:x:|Not working right now. Probabibly could be fixed|
+|HDMI port||:heavy_check_mark:|HDR and 120hz not tested|
 ## Usage
 ### Recommended
 **General Advise** : use this repo as a mirror to correct your mistakes during the creation of your own EFI folder
